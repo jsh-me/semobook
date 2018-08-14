@@ -1,0 +1,82 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "inu.io.grabo"
+        minSdkVersion 22
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            assets.srcDirs = ['src/main/assets', 'src/main/assets/', 'src/main/assets/tessdata']
+        }
+    }
+
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+    }
+}
+
+apply plugin: 'kotlin-android'//plus button -kotlin
+apply plugin: 'kotlin-android-extensions'//plus button -kotlin
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'hyogeun.github.com.colorratingbar:ColorRatingBar:1.0.1' //star rating
+    implementation 'in.arjsna:passcodeview:1.2.1' //password
+    implementation 'com.github.binaryroot:CarouselView:d51427b131' //carousel
+    implementation 'com.github.razerdp:AnimatedPieView:69c1e17b4a' //statistic
+
+
+    implementation 'com.google.firebase:firebase-core:11.8.0'
+    implementation 'com.google.firebase:firebase-messaging:11.8.0'
+    implementation 'com.google.firebase:firebase-database:11.8.0'
+    implementation 'com.google.firebase:firebase-auth:11.8.0'
+    implementation 'com.google.firebase:firebase-appindexing:11.8.0'
+    implementation 'com.google.android.gms:play-services:11.8.0'
+    implementation 'com.google.firebase:firebase-storage:11.8.0'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.android.support:support-v13:26.1.0'
+
+    implementation 'com.github.clans:fab:1.6.4'
+
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.0.0-RC1'
+
+    //ocr
+    implementation 'com.google.api-client:google-api-client-android:1.22.0' exclude module: 'httpclient'
+    implementation 'com.google.http-client:google-http-client-gson:1.22.0' exclude module: 'httpclient'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.google.apis:google-api-services-vision:v1-rev30-1.22.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+
+    implementation 'com.github.moondroid.coverflow:library:1.0'
+    implementation 'com.android.support:cardview-v7:26.1.0'
+
+    compile 'io.paperdb:paperdb:2.5'
+}
+//
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "289579405657",
+    "firebase_url": "https://semobook-22.firebaseio.com",
+    "project_id": "semobook-22",
+    "storage_bucket": "semobook-22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289579405657:android:efd7b8eb320d090e",
+        "android_client_info": {
+          "package_name": "inu.io.grabo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289579405657-q0r5t0265da71vso3v7bebkdc2eslnek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjjO-IZ4qnUpWvvZd1T23jh5b6CcdDXOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

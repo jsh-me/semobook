@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c7c0b6</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#b9b9b9</color>
+    <color name="title">#c2bab0</color>
+    <color name="font">#979ea7</color>
+    <color name="one">#E0E0D8</color>
+    <color name="two">#A49C91</color>
+
+    <color name="omfm_expanded_background_sample">#CCE9E9E9</color>
+
+</resources>

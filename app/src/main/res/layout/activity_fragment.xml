@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/one"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="122dp"
+        android:src="@drawable/semobooklogo" />
+    <!--<TextView-->
+        <!--android:id="@+id/promptview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Enter your passcode"-->
+        <!--android:textSize="18.0sp"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="20.0dp"-->
+        <!--/>-->
+
+    <in.arjsna.passcodeview.PassCodeView
+        android:id="@+id/pass_code_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25.0dp"
+        app:digit_size="30.0dp"
+        app:digits="4"
+        app:empty_drawable="@drawable/empty_dot"
+        app:filled_drawable="@drawable/filled_dot"
+        app:key_text_size="30.0sp"
+
+    />
+
+</LinearLayout>

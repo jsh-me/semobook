@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background_1">
+
+        <Button
+            android:id="@+id/openDrawer"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="25dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/menu_icon36" />
+
+        <TextView
+            android:id="@+id/tvTitleFriends"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:text="친구목록"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvFriends"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="110dp"
+            android:scrollbars="vertical" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="12dp"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+    </RelativeLayout>
+
+    <include layout="@layout/activity_drawer" />
+</android.support.v4.widget.DrawerLayout>

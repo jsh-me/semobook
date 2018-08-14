@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.moondroid.coverflow:library-1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.0.aar/2942a5f7a534fdf20dd2e9908812ae60/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.0.aar/2942a5f7a534fdf20dd2e9908812ae60/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.moondroid.coverflow/library/1.0/af7aa4ec3a4fa89ac593b3b2bc4d26ff2bd12b60/library-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

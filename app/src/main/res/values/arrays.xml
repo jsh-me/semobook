@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="date_year">
+        <item>2014년</item>
+        <item>2015년</item>
+    </string-array>
+
+    <string-array name="date_month">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+</resources>

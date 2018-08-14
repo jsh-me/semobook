@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context="inu.io.grabo.LoginActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:gravity="center_horizontal"
+        android:text="@string/login"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+        <!--android:textStyle="bold"-->
+
+
+    <TextView
+        android:id="@+id/id_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/empty_button"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/id_text"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/id_button"
+        android:layout_alignTop="@+id/id_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="11dp"
+        android:layout_toStartOf="@+id/textView6"
+        android:gravity="center_vertical"
+        android:scrollHorizontally="false"
+        android:text="I  D"
+        android:textSize="18sp"
+       />
+
+    <EditText
+        android:id="@+id/id_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/id_button"
+        android:layout_alignTop="@+id/id_button"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/pw_text"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="right|center_vertical"
+        android:hint="books@triangle.com"
+        android:singleLine="true"
+        android:textColorHint="@color/font"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/pw_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/empty_button" />
+
+    <TextView
+        android:id="@+id/pw_text"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/pw_button"
+        android:layout_alignStart="@+id/id_text"
+        android:layout_alignTop="@+id/pw_button"
+        android:gravity="center_vertical"
+        android:scrollHorizontally="false"
+        android:text="PW"
+        android:textSize="18sp"
+         />
+
+    <EditText
+        android:id="@+id/pw_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pw_button"
+        android:layout_alignEnd="@+id/id_input"
+        android:layout_alignTop="@+id/pw_button"
+        android:layout_toEndOf="@+id/id_text"
+        android:background="@null"
+        android:gravity="right|center_vertical"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColorHint="@color/font" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/enter" />
+
+</RelativeLayout>
+

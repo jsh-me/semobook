@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">세모책</string>
+    <string name="login">로그인</string>
+    <string name="signup">회원가입</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <!-- 슬라이딩 메뉴바 -->
+    <string name="book_shelf_txt">서재</string>
+    <string name="shared_txt">공유</string>
+    <string name="statistics_txt">통계</string>
+    <string name="setting_txt">설정</string>
+    <string name="sliding_menu_login_txt">함께 하시려면\n로그인을 해주세요 :)</string>
+
+    <string name="image_details_header">Details:</string>
+    <string name="image_preview_header">Preview:</string>
+    <string name="loading_message">Uploading image. Please wait.</string>
+    <string name="dialog_select_prompt">Choose a picture</string>
+    <string name="dialog_select_camera">Camera</string>
+    <string name="dialog_select_gallery">Gallery</string>
+    <string name="image_picker_error">Something is wrong with that image. Pick a different one please.</string>
+
+
+    <string name="appwidget_text"></string>
+    <string name="add_widget">Add widget</string>
+</resources>

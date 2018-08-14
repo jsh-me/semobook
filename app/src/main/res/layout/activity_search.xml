@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_1">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:text="책 검색"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--<TextView-->
+            <!--android:id="@+id/searchTest"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="TextView" />-->
+
+        <EditText
+            android:id="@+id/mEditSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:hint="검색어를 입력하세요." />
+
+        <!--<Button-->
+        <!--android:id="@+id/button_main_search"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Button" />-->
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#999999"
+            android:dividerHeight="1dp"></ListView>
+
+    </LinearLayout>
+
+
+    <include
+        layout="@layout/activity_drawer" />
+
+</android.support.v4.widget.DrawerLayout>

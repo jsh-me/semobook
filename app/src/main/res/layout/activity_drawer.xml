@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:gravity="center"
+    android:background="#A49C91"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/closedrawer"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="25dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/menu_icon36" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="177dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/img_btn_login"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/profile" />
+
+            <TextView
+                android:id="@+id/sliding_login_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/sliding_menu_login_txt"
+                android:textAlignment="center"
+                android:textColor="#ffffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/book_shelf_btn"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:background="#A49C91"
+                android:drawableLeft="@drawable/library_icon36"
+                android:text="@string/book_shelf_txt"
+                android:textColor="#ffffffff" />
+
+            <!--android:drawableLeft="@drawable/library_icon"-->
+
+
+            <Button
+                android:id="@+id/share_btn"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:background="#A49C91"
+                android:drawableLeft="@drawable/share_icon36"
+                android:text="@string/shared_txt"
+                android:textColor="#ffffffff" />
+
+            <Button
+                android:id="@+id/statistics_btn"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:background="#A49C91"
+                android:drawableLeft="@drawable/chart_icon36"
+                android:text="@string/statistics_txt"
+                android:textColor="#ffffffff" />
+
+            <Button
+                android:id="@+id/setting_btn"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:background="#A49C91"
+                android:drawableLeft="@drawable/setting_icon36"
+                android:text="@string/setting_txt"
+                android:textColor="#ffffffff" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
