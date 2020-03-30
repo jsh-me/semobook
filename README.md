@@ -1,4 +1,4 @@
-# SEMOBOOK
+# SEMOBOOK (REFACTORING 2020.03.28 ~ing)
 세상의 모든 책을 잡다.
 
 SCREENSHOTS
