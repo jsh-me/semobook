@@ -1,5 +1,5 @@
 # SEMOBOOK
-세상의 모든 책을 잡다.
+세상 모든 책을 잡다.
 
 SCREENSHOTS
 ----
